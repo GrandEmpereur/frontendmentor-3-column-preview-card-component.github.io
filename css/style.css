@@ -16,8 +16,8 @@ box-sizing: border-box;
 
 /* Neutral */
 
---paragraphs: hsla(0, 0%, 100%, 0.75)
---backgroundheadingsbuttons: hsl(0, 0%, 95%)
+--paragraphs: hsla(0, 0%, 100%, 0.75);
+--other: hsl(0, 0%, 95%);
 
 }
 
@@ -45,13 +45,13 @@ a {
 
 .title{
     padding:0.8rem;
-    color:hsl(0, 0%, 95%);
+    color: var(--other);
     font-family: 'Big Shoulders Display',cursive;
     
 }
 .description{
     padding:0.8rem;
-    color:hsla(0, 0%, 100%, 0.75);
+    color:var(--paragraphs);
     font-family: 'Lexend Deca',sans-serif;
     height: 10rem;
 }
@@ -61,7 +61,7 @@ a {
     margin: 2rem 0.8rem;
     padding: 0.4rem 1rem;
     text-decoration: none;
-    background:hsl(0, 0%, 95%);
+    background: var(--other);
     text-align:center;
     font-family: 'Lexend Deca',sans-serif;
 }
@@ -71,7 +71,7 @@ img{
     padding:0.8rem;
 }
 
-/* First card */
+/* 	first card */
 .Card-Sedans{
     background-color: var(--Brightorange);
     padding:2rem;
@@ -84,7 +84,7 @@ img{
     border-radius: 100px;
 }
 
-/* Second card */
+/* 2nd card */
 .Card-SUV{
     background-color: var(--Darkcyan);
     padding:2rem;
@@ -96,7 +96,7 @@ img{
     border-radius: 100px;
 }
 
-/* Therd card  */
+/* 3rd card  */
 .Card-Luxury{
     background-color: var(--Verydarkcyan);
     padding: 2rem;
